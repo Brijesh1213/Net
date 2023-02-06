@@ -2,20 +2,20 @@
 <testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-05T01:56:59 EST" name="Surefire suite" finished-at="2023-02-05T01:57:05 EST" duration-ms="6140">
+  <suite started-at="2023-02-05T20:06:06 EST" name="Surefire suite" finished-at="2023-02-05T20:06:13 EST" duration-ms="6123">
     <groups>
     </groups>
-    <test started-at="2023-02-05T01:56:59 EST" name="Surefire test" finished-at="2023-02-05T01:57:05 EST" duration-ms="6140">
+    <test started-at="2023-02-05T20:06:06 EST" name="Surefire test" finished-at="2023-02-05T20:06:13 EST" duration-ms="6123">
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="initialisation()[pri:0, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T01:56:59 EST" name="initialisation" finished-at="2023-02-05T01:57:02 EST" duration-ms="2998" status="PASS">
+        <test-method is-config="true" signature="initialisation()[pri:0, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T20:06:07 EST" name="initialisation" finished-at="2023-02-05T20:06:09 EST" duration-ms="2583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialisation -->
-        <test-method signature="verifyPageTitleTest()[pri:1, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T01:57:02 EST" name="verifyPageTitleTest" finished-at="2023-02-05T01:57:02 EST" duration-ms="22" status="PASS">
+        <test-method signature="verifyPageTitleTest()[pri:1, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T20:06:09 EST" name="verifyPageTitleTest" finished-at="2023-02-05T20:06:09 EST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitleTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T01:57:02 EST" name="teardown" finished-at="2023-02-05T01:57:03 EST" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T20:06:09 EST" name="teardown" finished-at="2023-02-05T20:06:10 EST" duration-ms="534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="initialisation()[pri:0, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T01:57:03 EST" name="initialisation" finished-at="2023-02-05T01:57:04 EST" duration-ms="1439" status="PASS">
+        <test-method is-config="true" signature="initialisation()[pri:0, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T20:06:10 EST" name="initialisation" finished-at="2023-02-05T20:06:11 EST" duration-ms="1394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialisation -->
-        <test-method signature="verifyLogo()[pri:2, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T01:57:04 EST" name="verifyLogo" finished-at="2023-02-05T01:57:05 EST" duration-ms="590" status="PASS">
+        <test-method signature="verifyLogo()[pri:2, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T20:06:11 EST" name="verifyLogo" finished-at="2023-02-05T20:06:11 EST" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T01:57:05 EST" name="teardown" finished-at="2023-02-05T01:57:05 EST" duration-ms="373" status="PASS">
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@7161d8d1]" started-at="2023-02-05T20:06:11 EST" name="teardown" finished-at="2023-02-05T20:06:12 EST" duration-ms="907" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,11 +47,11 @@
         </test-method> <!-- teardown -->
       </class> <!-- test.LoginTest -->
       <class name="test.BaseTest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:test.BaseTest@27406a17]" started-at="2023-02-05T01:56:59 EST" name="setExtent" finished-at="2023-02-05T01:56:59 EST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:test.BaseTest@27406a17]" started-at="2023-02-05T20:06:06 EST" name="setExtent" finished-at="2023-02-05T20:06:07 EST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:test.BaseTest@27406a17]" started-at="2023-02-05T01:57:05 EST" name="endReport" finished-at="2023-02-05T01:57:05 EST" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:test.BaseTest@27406a17]" started-at="2023-02-05T20:06:12 EST" name="endReport" finished-at="2023-02-05T20:06:13 EST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

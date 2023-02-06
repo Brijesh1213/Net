@@ -1,0 +1,69 @@
+package pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class AccountPermissionPage extends BasePage {
+
+	public AccountPermissionPage(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+	
+	  private By sideBarList = By.xpath("//div[@class='widget stay-on-collapse']/nav/ul/li/a/span");
+	  private By accountsTab = By.xpath("//li[@data-menu='Accounts']");
+	  private By createAdvanceTab = By.id("add_tab");
+	  private By createAdvanceList = By.xpath("//div[@class='form-group']/div");
+	
+	//WebElements
+	       public WebElement getsideBar() {
+	           return getElementforPage(sideBarList);
+	      }
+	       public WebElement getaccountsTab() {
+		  	   return getElementforPage(accountsTab);
+		  }
+	       public WebElement getcreateAdvanceTab() {
+			  	return getElementforPage(createAdvanceTab);
+		  }
+	       public WebElement getcreateAdvanceList() {
+			  	return getElementforPage(createAdvanceList);
+		  }
+	       
+	       public void createAdminAccount() throws InterruptedException {
+	    	   driver.switchTo().frame(1);
+	    	   Thread.sleep(3000);
+	    	   List<WebElement> M = driver.findElements(sideBarList);
+	    	   System.out.println(M.size());
+	    	   for (WebElement y : M) {
+	    		System.out.println(y.getText());
+	    	   }
+	    	   if(getcreateAdvanceList().isDisplayed()) {
+	    		   getcreateAdvanceList().click();   
+	    	   }
+	    	   else {
+	    	   getsideBar().click();}
+	    	   
+	    	 // getStringBasedElement(sideBarList, "Administration").click();
+	    	  // getaccountsTab().click();
+	    	   //getcreateAdvanceTab().click();
+//	    	   driver.switchTo().frame(2);
+//	    	   List<WebElement> L = driver.findElements(createAdvanceList);
+//	    	   System.out.println(L.toString());
+//	    	   for (WebElement y : L) {
+//	    		   if (y.getAttribute("placeholder")=="Organization") {
+//	    			   y.sendKeys("org");
+//	    			   break;
+//	    		   }
+//	    	   }
+	    	   List<WebElement> L = driver.findElements(createAdvanceList);
+	    	   System.out.println(L.size());
+	    	   for (WebElement y : L) {
+	    		System.out.println(y.getAttribute("placeholder"));
+	    	   }
+//        	   getAttributeBasedElement(createAdvanceList, "Login Name", "placeholder").sendKeys("selenium");
+//	    	   getAttributeBasedElement(createAdvanceList, "Organization", "placeholder").sendKeys("org");
+//	       }
+}}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-05T19:58:31 EST" name="Default suite" finished-at="2023-02-05T19:58:39 EST" duration-ms="8496">
+    <groups>
+    </groups>
+    <test started-at="2023-02-05T19:58:31 EST" name="Default test" finished-at="2023-02-05T19:58:39 EST" duration-ms="8496">
+      <class name="test.AccountPermissionTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:test.AccountPermissionTest@dc9876b]" started-at="2023-02-05T19:58:31 EST" name="setExtent" finished-at="2023-02-05T19:58:31 EST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="initialisation()[pri:0, instance:test.AccountPermissionTest@dc9876b]" started-at="2023-02-05T19:58:31 EST" name="initialisation" finished-at="2023-02-05T19:58:34 EST" duration-ms="2525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisation -->
+        <test-method signature="verifycreateAccount()[pri:0, instance:test.AccountPermissionTest@dc9876b]" started-at="2023-02-05T19:58:34 EST" name="verifycreateAccount" finished-at="2023-02-05T19:58:39 EST" duration-ms="5594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycreateAccount -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.AccountPermissionTest@dc9876b]" started-at="2023-02-05T19:58:39 EST" name="teardown" finished-at="2023-02-05T19:58:39 EST" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycreateAccount status=SUCCESS method=AccountPermissionTest.verifycreateAccount()[pri:0, instance:test.AccountPermissionTest@dc9876b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:test.AccountPermissionTest@dc9876b]" started-at="2023-02-05T19:58:39 EST" name="endReport" finished-at="2023-02-05T19:58:39 EST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- test.AccountPermissionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

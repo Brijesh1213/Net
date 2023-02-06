@@ -1,0 +1,19 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class AccountPermissionPage extends BasePage {
+
+	public AccountPermissionPage(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+	
+	  private By sideBar = By.xpath("//div[@class='widget stay-on-collapse']/nav/ul/li");
+	  private By accountsTab = By.xpath("//li[@data-menu='Accounts']");
+	  private By createAdvanceTab = By.id("add_tab");
+	  private By createAdvanceList = By.xpath("//div[@class='form-group']/div");
+	
+
+}

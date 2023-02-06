@@ -1,0 +1,29 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class AccountPermissionPage extends BasePage {
+
+	public AccountPermissionPage(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+	
+	  private By sideBar = By.xpath("//div[@class='widget stay-on-collapse']/nav/ul/li");
+	  private By accountsTab = By.xpath("//li[@data-menu='Accounts']");
+	  private By createAdvanceTab = By.id("add_tab");
+	  private By createAdvanceList = By.xpath("//div[@class='form-group']/div");
+	
+	//WebElements
+	       public WebElement getsideBar() {
+	           return getElementforPage(sideBar);
+	      }public WebElement getaccountsTab() {
+		  	   return getElementforPage(accountsTab);
+		  }public WebElement getcreateAdvanceTab() {
+			  	return getElementforPage(createAdvanceTab);
+		  }public WebElement getcreateAdvanceList() {
+			  	return getElementforPage(createAdvanceList);
+		  }
+}
